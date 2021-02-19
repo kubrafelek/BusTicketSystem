@@ -1,0 +1,666 @@
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 100%;
+    margin: auto;
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.h5_class {
+    font-family: "Dubai Medium";
+    font-size: 30px;
+    color: #008ae6;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: -30px;
+    padding: 14px 20px;
+}
+
+.h4_class {
+    color: #008ae6;
+    text-align: center;
+    font-family: "Dubai Medium";
+}
+
+.h3_class {
+    color: #ff7733;
+    text-align: center;
+    font-family: "Dubai Medium";
+}
+
+.container {
+    padding: 100px;
+}
+
+/*Links css*/
+a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+/**** aboutUs/addCampaign/ ****/
+#text_classic {
+    text-align: left;
+    font-family: "Candara Light";
+    font-size: 19px;
+}
+
+
+/***************************************HOMEPAGES****************************************************/
+/*Navbar*/
+.navbar {
+    position: relative;
+    overflow: hidden;
+    background-color: #008ae6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+
+/*Navbar Links*/
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/*Navbar Links Clicked*/
+.navbar a:hover {
+    background-color: #ff7733;
+    color: black;
+}
+
+/*Navbar Right Side*/
+.navbar-right {
+    float: right;
+}
+
+
+/*Big Image*/
+.big-image {
+    background-image: url("img/bus.jpg");
+    background-size: 100% 500px;
+    height: 420px;
+    width: 100%;
+    background-position: center;
+    position: relative;
+}
+
+/*Choose Journey*/
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid dodgerblue;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 40%;
+    background-color: dodgerblue;
+    color: snow;
+    font-family: "Dubai Medium";
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: dodgerblue;
+}
+
+input[type=text], input[type=password], input[type=date]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 3px solid #b7d7e8;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=date]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+/*Choose Journey START*/
+#list_journey {
+    border-radius: 5px;
+    background-color: bisque;
+    padding: 20px;
+    width: 30%;
+    margin-left: 100px;
+}
+
+#date {
+    height: 40px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid dodgerblue;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/*Choose Journey END*/
+
+/*Pnr css*/
+#pnrinput {
+    width: 40%;
+    border: 1px solid darkorange;
+    border-radius: 4px;
+    background-color: antiquewhite;
+    margin-left: 25%;
+}
+
+/*Pnr css*/
+
+/*Box Most Traveled Cities*/
+#box_mostTraveledCities {
+    width: 1200px;
+    height: 390px;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box_city {
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    padding: 50px 20px;
+    display: inline-block;
+    margin: 20px 16px;
+    vertical-align: top;
+
+}
+
+.image {
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+
+
+/*Box Icons Part on Opportunities*/
+@media only screen and (min-width: 768px) {
+    #box_class_icons {
+        width: 100%;
+        height: 300px;
+        text-align: center;
+        vertical-align: top;
+        margin: 80px auto 100px auto;
+        border-radius: 30px;
+        background-color: bisque;
+    }
+}
+
+.box_inside_icons {
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    padding: 30px 10px;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.image_icon {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.img_size {
+    width: 64px;
+    height: 64px;
+
+}
+
+/*OPPOTUNITIES PARARAPH STYLE CSS*/
+.homepage_pid {
+    font-family: "Candara Light";
+
+}
+
+/*Footer'ın üstü CSS START*/
+@media only screen and (min-width: 768px) {
+    #row_id {
+        width: 100%;
+        height: 300px;
+        text-align: center;
+        vertical-align: top;
+        background-color: #008ae6;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+
+    }
+}
+
+.col_class {
+    text-align: left;
+    padding: 30px 90px;
+    display: inline-table;
+    background-color: #008ae6;
+}
+
+.topic {
+    width: 150px;
+    height: 50px;
+    padding-top: -50px;
+    padding-bottom: 20px;
+    color: #ff7733;
+}
+
+.col_class li {
+    color: bisque;
+    padding: 3px;
+}
+
+#phone_num {
+    margin-top: -40px;
+    color: bisque;
+    font-family: "Bookman Old Style";
+
+}
+
+.social_medias {
+    margin-top: 2px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+#text_socialmedia {
+    text-align: center;
+    font-family: "Bookman Old Style";
+    font-weight: revert;
+    color: bisque;
+}
+
+.social_medias img {
+    width: 45px;
+    height: 45px;
+    margin: 6px;
+}
+
+/*Footer'ın üstü CSS END*/
+
+/* Footer */
+.main_footer {
+    text-align: center;
+    border: 2px solid #ff7733;
+    background-color: #ff7733;
+    padding: 5px;
+    bottom: 0px;
+    position: -webkit-sticky;
+    width: 100%;
+}
+
+#footer_text {
+    font-size: medium;
+    font-family: "Dubai Medium";
+    font-weight: bold;
+}
+
+/***************************************HOMEPAGES****************************************************/
+
+/*Contact Us Page CSS START*/
+#subject {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 3px solid #b7d7e8;
+    background: #f1f1f1;
+}
+
+#subject:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.msg_content{
+    width: 100%;
+    height: 165px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 3px solid #b7d7e8;
+    background: #f1f1f1;
+}
+/*Contact Us Page CSS END*/
+
+/*About us CSS START*/
+.title {
+    color: grey;
+}
+
+.column_aboutUs {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 18px;
+}
+
+@media screen and (max-width: 650px) {
+    .column_aboutUs {
+        width: 100%;
+        display: block;
+    }
+}
+
+/*About us CSS END*/
+
+/*Support CSS START*/
+.column_support {
+    background-color: antiquewhite;
+    border-radius: 30px;
+    padding: 25px;
+}
+
+/*Support CSS END*/
+
+/*Campaign  CSS START*/
+.campaign_subject {
+
+    font-size: 20px;
+}
+
+/*Campaign  CSS END*/
+
+/*RegUser info box CCS START*/
+.message_text {
+    width: 80%;
+    height: 100px;
+    padding: 50px;
+    text-align: left;
+    font-family: "Candara Light";
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+/*RegUser info box CSS END*/
+
+/*View&Edit Jouney From Admin Page*/
+.search-container {
+    width: 60%;
+    padding: 16px 10px;
+    margin-right: 16px;
+    margin-left: 30%;
+    margin-bottom: -130px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+/****************ALL BUTTONS***********************************/
+button {
+    background-color: #87bdd8;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+/*HOMEPAGE*/
+.listbtn {
+    margin-left: 50%;
+    width: 40%;
+    background-color: dodgerblue;
+    border-radius: 4px;
+}
+
+/*HOMEPAGE*/
+.pnrbtn {
+    width: 10%;
+    background-color: dodgerblue;
+    border-radius: 4px;
+}
+
+/* LOGIN_A_O_RU / REGISTRATION / CHAGEPASS / FORGOTPASS */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons*/
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats */
+.cancel_signup::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Clear floats */
+.cancel_signup::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Admin sign button */
+.adminSignbtn, .officerSignbtn {
+    padding: 14px 20px;
+    background-color: dodgerblue;
+    width: 40%;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 40px;
+}
+
+.addjourneybtn {
+    padding: 14px 20px;
+    background-color: dodgerblue;
+    float: right;
+    width: 20%;
+}
+
+.returnbtn, .nextbtn {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    width: 25%;
+}
+
+.returnbtn {
+    background-color: #4CAF50;
+}
+
+.nextbtn {
+    background-color: #008ae6;
+    float: right;
+    width: 15%;
+
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn, .officerSignbtn, .adminSignbtn {
+        width: 100%;
+    }
+}
+
+.ticket_transactions_btn {
+    padding: 14px 20px;
+    margin: 14px 12px;
+    background-color: dodgerblue;
+    float: left;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.transactions_admin_btn {
+    padding: 14px 20px;
+    margin: 14px 12px;
+    background-color: dodgerblue;
+    float: left;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.ticket_transactions_btn {
+    width: 22%;
+}
+
+.transactions_admin_btn {
+    width: 22%;
+}
+
+.findjourneybtn {
+    background-color: dodgerblue;
+}
+
+.canceljourney_tiketbtn {
+    padding: 14px 20px;
+    background-color: dodgerblue;
+    margin-right: 50px;
+    width: 18%;
+    border-radius: 20px;
+}
+
+.answer_officer_btn {
+    padding: 14px 20px;
+    background-color: dodgerblue;
+    float: right;
+    width: 10%;
+    margin-right: 150px;
+    margin-top: -10px;
+    border-radius: 20px;
+    border-radius: 20px;
+}
+
+/****************ALL BUTTONS END*********************************/
+
+/******************LIST OF JOURNEY*****************/
+#seats {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+#seats td, #seats th {
+    border: 2px solid #ddd;
+    padding: 5px;
+    text-align: center;
+}
+
+/******************LIST OF JOURNEY*****************/
+
+/******************SEAT PLAN CSS*****************/
+.column {
+    float: left;
+    width: 15.3%;
+    padding: 0 25px;
+}
+
+.seatNumber {
+    text-align: center;
+    padding: 2px;
+    font-size: 24px;
+    font-family: "Franklin Gothic Demi";
+}
+
+.outer-seat {
+    width: 80px;
+    height: 80px;
+    border-radius: 9px;
+    border: 3px solid #D8D8D8;
+    background: white;
+    position: relative;
+    margin: 4px;
+}
+
+.inner-seat {
+    width: 70px;
+    height: 70px;
+    border-radius: 4px;
+    top: 50%;
+    left: 50%;
+    margin: -35px 0px 0px -35px;
+    background: #D8D8D8;
+    position: absolute;
+}
+
+.outer-seat:hover {
+    border-color: #3366CC;
+}
+
+.selected-innerColor {
+    background-color: #3366CC;
+}
+
+.selected-outerColor {
+    border-color: #3366CC;
+}
+
+/******************SEAT PLAN CSS*****************/
+
+/* The container */
+.conSeat {
+    display: inline-flex;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+
+}
+
+/* Hide the browser's default radio button */
+.conSeat input {
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkSeat {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.conSeat:hover input ~ .checkSeat {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.conSeat input:checked ~ .checkSeat {
+    background-color: #2196F3;
+}
